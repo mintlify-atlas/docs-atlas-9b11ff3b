@@ -1,0 +1,178 @@
+{
+  "projectType": "saas",
+  "projectName": "QLC+",
+  "projectDescription": "Free and cross-platform software to control DMX or analog lighting systems like moving heads, dimmers, and scanners.",
+  "theme": "aspen",
+  "primaryColor": "#f6d02f",
+  "lightColor": "#84949c",
+  "darkColor": "#374e5b",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/overview",
+              "concepts/fixtures",
+              "concepts/functions",
+              "concepts/universes"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/fixture-manager",
+              "features/function-manager",
+              "features/virtual-console",
+              "features/simple-desk",
+              "features/show-manager",
+              "features/2d-view",
+              "features/3d-view"
+            ]
+          },
+          {
+            "group": "Functions",
+            "pages": [
+              "functions/scene",
+              "functions/chaser",
+              "functions/efx",
+              "functions/collection",
+              "functions/rgb-matrix",
+              "functions/script",
+              "functions/audio",
+              "functions/video"
+            ]
+          },
+          {
+            "group": "Virtual Console Widgets",
+            "pages": [
+              "widgets/button",
+              "widgets/slider",
+              "widgets/speed-dial",
+              "widgets/xy-pad",
+              "widgets/cue-list",
+              "widgets/frame",
+              "widgets/solo-frame",
+              "widgets/label",
+              "widgets/animation",
+              "widgets/audio-triggers",
+              "widgets/clock"
+            ]
+          },
+          {
+            "group": "Hardware & I/O",
+            "pages": [
+              "hardware/input-output",
+              "hardware/input-profiles",
+              "hardware/audio-configuration"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/web-interface",
+              "advanced/command-line",
+              "advanced/scripting",
+              "advanced/kiosk-mode",
+              "advanced/raspberry-pi"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Plugins",
+        "groups": [
+          {
+            "group": "Output Plugins",
+            "pages": [
+              "plugins/artnet",
+              "plugins/e131-sacn",
+              "plugins/dmx-usb",
+              "plugins/ola",
+              "plugins/os2l",
+              "plugins/loopback"
+            ]
+          },
+          {
+            "group": "Input Plugins",
+            "pages": [
+              "plugins/midi",
+              "plugins/osc",
+              "plugins/hid",
+              "plugins/enttec-wing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Contributing",
+            "pages": [
+              "development/contributing",
+              "development/building",
+              "development/architecture",
+              "development/testing"
+            ]
+          },
+          {
+            "group": "Fixture Definitions",
+            "pages": [
+              "development/fixture-editor",
+              "development/fixture-definition-format",
+              "development/creating-fixtures"
+            ]
+          },
+          {
+            "group": "Plugin Development",
+            "pages": [
+              "development/plugin-api",
+              "development/creating-plugins"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-universe DMX control with Art-Net and sACN support",
+    "Comprehensive fixture library with editor",
+    "Virtual Console for live show control",
+    "Scene, Chaser, and EFX function types",
+    "RGB Matrix effects generator",
+    "Show Manager for timeline-based shows",
+    "2D and 3D visualization",
+    "Web-based remote interface",
+    "MIDI and OSC input support",
+    "Cross-platform (Linux, Windows, macOS, Raspberry Pi)"
+  ],
+  "publicApiSurface": [
+    "Scene - Static lighting state",
+    "Chaser - Sequential function runner",
+    "EFX - Effect patterns for moving heads",
+    "Collection - Parallel function starter",
+    "RGB Matrix - Color matrix effects",
+    "Script - JavaScript automation",
+    "Audio - Audio playback triggers",
+    "Video - Video playback",
+    "Fixture - Lighting device abstraction",
+    "Universe - DMX universe (512 channels)",
+    "Virtual Console - Live control interface",
+    "Show Manager - Timeline sequencer",
+    "Simple Desk - Direct DMX channel control",
+    "Input Profile - External controller mapping",
+    "Input/Output - Hardware interface configuration",
+    "Web Access - HTTP remote control API"
+  ]
+}
